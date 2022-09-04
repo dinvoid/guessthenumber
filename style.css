@@ -1,0 +1,91 @@
+*{	
+	   margin: 0;
+	   padding: 0;
+	   background-color:white;
+}
+
+section{
+	width: min(500px,80%);
+    margin: auto;
+    margin-top: 7vh;
+    box-shadow: 5px 5px 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #E0E1DD;
+    text-align: center;
+
+}
+
+h2{
+	background-color:  #E0E1DD;
+
+	color: #828382;
+	display: block;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+   
+   
+}
+
+.hiddenNum{
+
+	border:1px solid #838282;
+	width:20%;
+	
+	margin:0 auto;
+	
+	
+	
+}
+.hiddenNum #num{
+	object-position: center;
+	background-color: #838282;
+	font-family: sans-serif;
+	font-weight: 20px;
+	font-size: 20px;
+	text-align: center;
+	height: 40px;
+
+}
+
+button{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border: 1px solid gray;
+    border-radius: 10px;
+    font-size: large;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    letter-spacing: 2px;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+input{
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    width: 50%;
+    border-radius: 12px;
+}
+div{
+	background-color:  #E0E1DD;
+}
+.lifes p{
+	background-color:  #E0E1DD;
+}
+span{
+background-color:  #E0E1DD;	
+}
+.guesserror{
+	background-color:  #E0E1DD;
+}
+.guesserror h5{
+	background-color:  #E0E1DD;
+}

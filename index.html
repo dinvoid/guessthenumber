@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GUESS THE NUMBER</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="30">
+	<link rel="stylesheet" type="text/css" href="./style.css">
+
+</head>
+<body>
+	<section>
+
+        <h2>Guess The Number Between 1 to 10</h2>
+        
+        <div class="lifes">
+        	<p>Number  of Try <span class="life">5</span></p>
+        </div>
+        <br>
+       
+
+        <div class="hiddenNum">
+       	    <p id="num"></p>	
+        </div>
+
+        <br><br>
+
+        <div class="guesserror">
+        	<h5 style="color: red;" class="error"></h5>
+        	<input type="number" id="input" required> <button id="guess" onclick="guessNum()">GUESS</button>
+        </div>
+
+        <br><br>
+
+        <div class="btn_wrapper"> 
+            <button class="btn_Restart" onclick="randnum()">Restart</button>
+            <button class="btn_show" onclick="showNumber()">Show Hidden Number</button>
+            <button onclick="closeWindow()">Exit</button>
+        </div>
+
+	</section>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
